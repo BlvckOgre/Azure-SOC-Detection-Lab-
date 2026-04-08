@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Project Overview
+##  **Project Overview**
 
 This project is a full-scale **Azure-based Security Operations Center (SOC) lab** designed to simulate a real-world enterprise environment under attack.
 
@@ -21,7 +21,7 @@ The lab includes:
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The environment is deployed in Azure using a segmented network architecture:
 
@@ -58,11 +58,11 @@ The environment is deployed in Azure using a segmented network architecture:
 
 ---
 
-## ⚙️ Project Setup (Step-by-Step)
+##  Project Setup (Step-by-Step)
 
 ---
 
-### 🔹 Phase 1: Azure Infrastructure Setup
+###  Phase 1: Azure Infrastructure Setup
 
 1. Create Resource Group
 2. Create Virtual Network (VNet)
@@ -80,7 +80,7 @@ The environment is deployed in Azure using a segmented network architecture:
 
 ---
 
-### 🔹 Phase 2: Deploy Virtual Machines
+###  Phase 2: Deploy Virtual Machines
 
 Deploy the following:
 
@@ -96,7 +96,7 @@ Optional:
 
 ---
 
-### 🔹 Phase 3: Endpoint Instrumentation
+###  Phase 3: Endpoint Instrumentation
 
 #### Windows
 - Install Sysmon
@@ -114,7 +114,7 @@ Optional:
 
 ---
 
-### 🔹 Phase 4: Network Monitoring Setup
+###  Phase 4: Network Monitoring Setup
 
 - Install Snort or Suricata on Sensor VM
 - Configure rules for:
@@ -128,7 +128,7 @@ Optional:
 
 ---
 
-### 🔹 Phase 5: File Detection (YARA)
+###  Phase 5: File Detection (YARA)
 
 - Install YARA on endpoints
 - Create rules to detect:
@@ -144,7 +144,7 @@ Optional:
 
 ---
 
-### 🔹 Phase 6: Log Detection (Sigma → Sentinel)
+###  Phase 6: Log Detection (Sigma → Sentinel)
 
 - Write Sigma-style detection logic for:
   - Failed logins
@@ -156,7 +156,7 @@ Optional:
 
 ---
 
-### 🔹 Phase 7: Attack Simulation
+###  Phase 7: Attack Simulation
 
 Using Kali Linux:
 
@@ -168,7 +168,7 @@ Using Kali Linux:
 
 ---
 
-### 🔹 Phase 8: Detection & Correlation
+###  Phase 8: Detection & Correlation
 
 - Monitor alerts in Sentinel
 - Correlate:
@@ -178,7 +178,7 @@ Using Kali Linux:
 
 ---
 
-## 🔍 Detection Use Cases
+##  Detection Use Cases
 
 | Scenario | Detection Type |
 |--------|--------------|
@@ -190,7 +190,7 @@ Using Kali Linux:
 
 ---
 
-## 🧪 Investigation (TO BE COMPLETED)
+##  Investigation (TO BE COMPLETED)
 
 > This section will be updated after full attack simulations are conducted.
 
@@ -204,7 +204,7 @@ Using Kali Linux:
 
 ---
 
-## 📊 Future Improvements
+##  Future Improvements
 
 - Add automated response (Logic Apps)
 - Integrate Defender for Endpoint
@@ -214,7 +214,7 @@ Using Kali Linux:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 
 
@@ -223,7 +223,7 @@ Using Kali Linux:
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - Cloud Security Architecture (Azure)
 - Detection Engineering
@@ -234,7 +234,7 @@ Using Kali Linux:
 
 ---
 
-## 🚀 Author
+##  Author
 
 Dimakatso Malope  
 Data Engineer | Cybersecurity Analyst  
