@@ -25,6 +25,8 @@ The lab includes:
 
 The environment is deployed in Azure using a segmented network architecture:
 
+![lab architecture](Azure-SOC-detection-lab-architecture.png).
+
 ### Core Components
 
 | Zone | Description |
