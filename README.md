@@ -218,7 +218,7 @@ Using Kali Linux:
 
 ##  Repository Structure
 
-
+```
 ├── architecture/
 │   ├── diagrams
 │   ├── network design
@@ -250,7 +250,7 @@ Using Kali Linux:
 │   ├── notes
 |
 ├── README.md
-
+```
 
 
 ---
