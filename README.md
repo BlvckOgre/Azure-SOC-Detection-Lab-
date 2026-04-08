@@ -219,7 +219,37 @@ Using Kali Linux:
 ##  Repository Structure
 
 
-
+├── architecture/
+│   ├── diagrams
+│   ├── network design
+│  
+├── detections/
+│   ├── 
+│   ├──
+│ 
+├── yara/
+│   ├── 
+│   ├──
+├── snort/
+│   ├── 
+│   ├──
+├── sigma/
+│   ├── 
+│   ├──
+├── kql/
+│   ├── 
+│   ├──
+├── scripts/
+│   ├── setup scripts
+│   ├── automation
+├── investigations/
+│   ├── reports
+│   ├── timelines
+├── docs/
+│   ├── setup guides
+│   ├── notes
+|
+├── README.md
 
 
 
